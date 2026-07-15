@@ -1,0 +1,25 @@
+{
+  "name": "synapse-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Synapse CRM — internal account/stakeholder tracker. Express + Postgres + WebSocket, serves a single-page frontend.",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "ws": "^8.18.0"
+  }
+}
